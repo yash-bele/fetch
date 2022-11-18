@@ -64,12 +64,12 @@ const Home = () => {
             >
               Get User
             </button>
-            <div className='bg-gradient-to-r from-[#fc00ff] to-[#00dbde] w-24 h-24 rounded-3xl flex justify-center items-center'>
-              <div className='bg-slate-900 w-[90px] h-[90px] rounded-3xl flex justify-center items-center'>
+            <div className='bg-gradient-to-r from-[#fc00ff] to-[#00dbde] w-24 h-24 rounded-3xl grid place-items-center'>
+              <div className='bg-slate-900 w-[90px] h-[90px] rounded-3xl grid place-items-center'>
                 <img
                   src={picture.large}
                   alt={name.first}
-                  className='rounded-3xl w-[87%]'
+                  className='rounded-3xl w-[80px]'
                 />
               </div>
             </div>
