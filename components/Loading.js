@@ -12,7 +12,7 @@ const Loading = () => {
         />
       </Head>
       <main className='bg-gradient-to-b from-slate-900 to-slate-800 absolute w-full h-full flex items-center justify-center'>
-        <main className='text-white'>
+        <main className='text-white -mt-10'>
           <section className='flex flex-col items-center'>
             <button className='w-24 text-sm py-2 bg-white/10 rounded-xl mb-10'>
               Get User

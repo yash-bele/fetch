@@ -56,7 +56,7 @@ const Home = () => {
         />
       </Head>
       <main className='bg-gradient-to-b from-slate-900 to-slate-800 absolute w-full h-full flex items-center justify-center'>
-        <main className='text-white'>
+        <main className='text-white -mt-10'>
           <section className='flex flex-col items-center'>
             <button
               onClick={() => getData()}
