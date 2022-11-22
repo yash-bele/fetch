@@ -14,7 +14,7 @@ const Loading = () => {
       <main className='bg-gradient-to-b from-slate-900 to-slate-800 absolute w-full h-full flex items-center justify-center'>
         <main className='text-white -mt-10'>
           <section className='flex flex-col items-center'>
-            <button className='w-24 text-sm py-2 bg-white/10 rounded-xl mb-10'>
+            <button className='w-24 text-sm py-2 bg-white/20 rounded-3xl mb-10'>
               Get User
             </button>
             <div className='bg-gradient-to-r from-[#fc00ff] to-[#00dbde] w-24 h-24 rounded-3xl flex justify-center items-center'>
@@ -26,18 +26,18 @@ const Loading = () => {
               <h1 className='font-bold tracking-wide'>..........</h1>
             </div>
             <div className='flex space-x-3 mt-7 mb-12'>
-              <button className='w-24 text-sm py-1 bg-white/10 rounded-xl'>
+              <button className='w-24 text-sm py-1 bg-white/10 rounded-3xl'>
                 Age
               </button>
-              <button className='w-24 text-sm py-1 bg-white/10 rounded-xl'>
+              <button className='w-24 text-sm py-1 bg-white/10 rounded-3xl'>
                 Email
               </button>
-              <button className='w-24 text-sm py-2 bg-white/10 rounded-xl'>
+              <button className='w-24 text-sm py-2 bg-white/10 rounded-3xl'>
                 Phone
               </button>
             </div>
           </section>
-          <section className='w-80 h-32 bg-gradient-to-r from-[#fc00ff]/10 to-[#00dbde]/10 backdrop-opacity-5 rounded-xl p-2 backdrop-sm'>
+          <section className='w-80 h-32 bg-gradient-to-r from-[#fc00ff]/30 to-[#00dbde]/30 backdrop-opacity-5 rounded-xl p-2 backdrop-sm'>
             <h1 className='text-center font-semibold tracking-wide'>
               Additional Info!
             </h1>

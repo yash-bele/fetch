@@ -60,7 +60,7 @@ const Home = () => {
           <section className='flex flex-col items-center'>
             <button
               onClick={() => getData()}
-              className='w-24 text-sm py-2 bg-white/10 hover:bg-white/20 duration-200 rounded-xl mb-10 text-sm'
+              className='w-24 text-sm py-2 bg-white/20 rounded-3xl mb-10 text-sm'
             >
               Get User
             </button>
@@ -79,7 +79,7 @@ const Home = () => {
             <div className='flex space-x-3 mt-7 mb-12'>
               <button
                 onClick={() => handleClick(0)}
-                className={`w-24 text-sm py-1 bg-white/10 rounded-xl hover:bg-white/20 duration-200 ${
+                className={`w-24 text-sm py-1 bg-white/10 rounded-3xl hover:bg-white/20 duration-200 ${
                   show === 0 && 'bg-gradient-to-r from-[#fc00ff] to-[#00dbde]'
                 }`}
               >
@@ -87,7 +87,7 @@ const Home = () => {
               </button>
               <button
                 onClick={() => handleClick(1)}
-                className={`w-24 text-sm py-1 bg-white/10 rounded-xl hover:bg-white/20 duration-200 ${
+                className={`w-24 text-sm py-1 bg-white/10 rounded-3xl hover:bg-white/20 duration-200 ${
                   show === 1 && 'bg-gradient-to-r from-[#fc00ff] to-[#00dbde]'
                 }`}
               >
@@ -95,7 +95,7 @@ const Home = () => {
               </button>
               <button
                 onClick={() => handleClick(2)}
-                className={`w-24 text-sm py-2 bg-white/10 rounded-xl hover:bg-white/20 duration-200 ${
+                className={`w-24 text-sm py-2 bg-white/10 rounded-3xl hover:bg-white/20 duration-200 ${
                   show === 2 && 'bg-gradient-to-r from-[#fc00ff] to-[#00dbde]'
                 }`}
               >
@@ -103,7 +103,7 @@ const Home = () => {
               </button>
             </div>
           </section>
-          <section className='w-80 h-32 bg-gradient-to-r from-[#fc00ff]/10 to-[#00dbde]/10 backdrop-opacity-5 rounded-xl p-2 backdrop-sm'>
+          <section className='w-80 h-32 bg-gradient-to-r from-[#fc00ff]/30 to-[#00dbde]/30 rounded-xl p-2 backdrop-sm relative'>
             <h1 className='text-center font-semibold tracking-wide'>
               Additional Info!
             </h1>
