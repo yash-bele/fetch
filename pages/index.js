@@ -55,7 +55,7 @@ const Home = () => {
           href='https://developer.apple.com/design/human-interface-guidelines/images/intro/foundations/foundations-icons-intro_2x.png'
         />
       </Head>
-      <main className='absolute w-full h-full flex items-center justify-center'>
+      <main className='bg-gradient-to-b from-slate-900 to-slate-800 absolute w-full h-full flex items-center justify-center'>
         <main className='text-white -mt-10'>
           <section className='flex flex-col items-center'>
             <button
